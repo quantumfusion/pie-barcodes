@@ -1,4 +1,8 @@
 *.py[co]
+*.swp
+
+# Images and PDFs
+*.pdf
 
 # Packages
 *.egg
