@@ -5,6 +5,7 @@
 from PIRNCode import PIRNCode
 
 # Report Lab API: http://www.reportlab.com/apis/reportlab/2.4/index.html
+# Ubuntu install directory: /usr/share/pyshared/reportlab
 from reportlab.lib.units import inch
 from reportlab.lib.utils import ImageReader
 from reportlab.graphics import renderPDF
