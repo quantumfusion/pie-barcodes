@@ -1,7 +1,7 @@
-# TODO: Add ability to pass a specially formatted csv and have it detect
-# the type of badge, output individual badges, combine to single doc for
-# printing, and output a csv for easily updating the online database.
+# Class is a convenience class that makes it easier to create badges with the
+# barcode on them.
 
+# A class written to make barcode generation easier
 from PIRNCode import PIRNCode
 
 # Report Lab API: http://www.reportlab.com/apis/reportlab/2.4/index.html
@@ -23,58 +23,68 @@ import csv, re, os
 # Generating random identifier
 import random, string
 
-#Imports custom fonts
-_ttfFile = os.path.join(os.getcwd(), 'clan-mediumsc-webfont.ttf')
-pdfmetrics.registerFont(TTFont("clan", _ttfFile))
-
-_badgeHeight = 3.1
-_badgeWidth = 4.1
-_initXpos = 0.15
-_initYpos = 1
+#_badgeHeight = 3.1
+#_badgeWidth = 4.1
+#_initXpos = 0.15
+#_initYpos = 1
     
-_badges = {"PI":os.path.join("Badge Templates","Staff Badge.png"),
-           "staff":os.path.join("Badge Templates","Staff Badge.png"),
-           "MT":os.path.join("Badge Templates","Mentor Badge.png"),
-           "mentor":os.path.join("Badge Templates","Mentor Badge.png"),
-           "ST":os.path.join("Badge Templates","Student Badge.png"),
-           "student":os.path.join("Badge Templates","Student Badge.png"),
-           "TE":os.path.join("Badge Templates","Teacher Badge.png"),
-           "teacher":os.path.join("Badge Templates","Teacher Badge.png"),
-           "VT":os.path.join("Badge Templates","Volunteer Badge.png"),
-           "volunteer":os.path.join("Badge Templates","Volunteer Badge.png"),
-           "ref":os.path.join("Badge Templates","Ref Badge.png"),
-           "judge":os.path.join("Badge Templates","Judge Badge.png"),
-           "guest":os.path.join("Badge Templates","Guest Badge.png"),
-           "captain":os.path.join("Badge Templates","Captain Badge.png"),
-           "coach":os.path.join("Badge Templates","Coach Badge.png"),
-           "driver":os.path.join("Badge Templates","Driver Badge.png")}
-
-class badgeGen:
+class BadgeGen:
     __version__ = 3
+    #__badge_height = 3.1
+    #__badge_width = 4.1
+    #__init_x_position = 0.15
+    #__init_y_position = 1
+    #x = _initXpos
+    #y = _initYpos
+    #_pdf_canvas = None
+    #_default_badge_type = None
+    #_print_individual = False
+    #_print_individual_location = ""
 
-    x = _initXpos
-    y = _initYpos
-    #_pdfCanvas = None
-    #_defaultBadgeType = None
-    #_printIndividual = False
-    #_printIndivLoc = ""
+    _badges = {"PI":os.path.join("BadgeTemplates","StaffBadge.png"),
+               "staff":os.path.join("BadgeTemplates","StaffBadge.png"),
+               "MT":os.path.join("BadgeTemplates","MentorBadge.png"),
+               "mentor":os.path.join("BadgeTemplates","MentorBadge.png"),
+               "ST":os.path.join("BadgeTemplates","StudentBadge.png"),
+               "student":os.path.join("BadgeTemplates","StudentBadge.png"),
+               "TE":os.path.join("BadgeTemplates","TeacherBadge.png"),
+               "teacher":os.path.join("BadgeTemplates","TeacherBadge.png"),
+               "VT":os.path.join("BadgeTemplates","VolunteerBadge.png"),
+               "volunteer":os.path.join("BadgeTemplates","VolunteerBadge.png"),
+               "ref":os.path.join("BadgeTemplates","RefBadge.png"),
+               "judge":os.path.join("BadgeTemplates","JudgeBadge.png"),
+               "guest":os.path.join("BadgeTemplates","GuestBadge.png"),
+               "captain":os.path.join("BadgeTemplates","CaptainBadge.png"),
+               "coach":os.path.join("BadgeTemplates","CoachBadge.png"),
+               "driver":os.path.join("BadgeTemplates","DriverBadge.png")}
 
-    def __init__(self, fileOutName, badgeType):
-        self._pdfCanvas = canvas.Canvas(fileOutName)
-        self._pdfCanvas.setPageSize((8.5*inch, 11*inch))
-        self._defaultBadgeType = badgeType
-        self._printIndividual = False
+
+    def __init__(self, file_out_name, badge_type, badge_height = 3.1, 
+            badge_width = 4.1, init_x_position = 0.15, init_y_position = 1):
+        #Imports custom fonts
+        _ttfFile = os.path.join(os.getcwd(), 'clan-mediumsc-webfont.ttf')
+        pdfmetrics.registerFont(TTFont("clan", _ttfFile))
+
+        self._pdf_canvas = canvas.Canvas(file_out_name)
+        self._pdf_canvas.setPageSize((8.5*inch, 11*inch))
+        self._default_badge_type = badge_type
+        self._print_individual = False
+        self.__badge_height = badge_height
+        self.__badge_width = badge_width
+        self.__init_x_position = init_x_position
+        self.__init_y_position = init_y_postiion
+        self.x = init_x_position
+        self.y = init_y_position
 
     # currently, loc can only be a folder, not a hierarchy
     def setIndivLoc(self, loc):
-        self._printIndividual = True
-        self._printIndivLoc = loc
+        self._print_individual = True
+        self._print_individual_location = loc
         folders = self.parsePath(loc)
         if len(folders) == 1:
             if not loc in os.listdir("."):
                 os.mkdir(loc)
                 return
-            
         for folder in folders:
             if not folder in os.listdir("."):
                 os.mkdir(folder)
@@ -90,48 +100,48 @@ class badgeGen:
             pair = os.path.split(pair[0])
         pathList.reverse()
         return pathList
-                
 
-    def addBadge(self, name, line2, code, badgeType = None):
-        if not badgeType:
-            if not self._defaultBadgeType:
+    def addBadge(self, name, line2, code, badge_type = None):
+        if not badge_type:
+            if not self._default_badge_type:
+                # need to throw an exception here
                 print "Bad badge type."
                 exit(1)
             else:
-                badgeType = self._defaultBadgeType
-        self.makeBadge(self._pdfCanvas,
-                       name,
-                       line2,
-                       code,
-                       self.x, self.y,
-                       badgeType)
-        if self._printIndividual:
+                badge_type = self._default_badge_type
+        self.makeBadge(
+            name,
+            line2,
+            code,
+            self.x, self.y,
+            badge_type)
+        if self._print_individual:
             if not name.strip():
                 filename = code + ".pdf"
             else:
                 filename = name + ".pdf"
-            copyLoc = os.path.join(self._printIndivLoc, filename)
+            copyLoc = os.path.join(self._print_individual_location, filename)
             individualBadge = canvas.Canvas(copyLoc)
             self.makeBadge(individualBadge,
                            name,
                            line2,
                            code,
                            2.2, 4,
-                           badgeType)
+                           badge_type)
             individualBadge.save()
-        self.x = self.x + _badgeWidth
+        self.x = self.x + self.__badge_width
         if self.x > 8:
-            self.x = _initXpos
-            self.y = self.y + _badgeHeight
+            self.x = self.__init_x_position
+            self.y = self.y + self.__badge_height
             if self.y > 8:
-                self._pdfCanvas.showPage()
-                self.y = _initYpos
+                self._pdf_canvas.showPage()
+                self.y = self.__init_y_position
 
     # nameList, line2List are lists of indices that need to be combined.
     def fromCSV(self, csvFileName, nameIndexes, line2_indexes, codeLoc,
                 line2_extra = "", organizeBy = None):
         csvDat = csv.reader(open(csvFileName))
-        originalIndivLoc = self._printIndivLoc
+        originalIndivLoc = self._print_individual_location
         for row in csvDat:
             try:
                 if "Example" in row or "Oski" in row or "Barcode" in row:
@@ -140,13 +150,11 @@ class badgeGen:
                 for index in nameIndexes:
                     name = name + row[index] + " "
                 name = name[:-1]
-
                 line2 = line2_extra
                 if line2_indexes:
                     for index in line2_indexes:
                         line2 = line2 + row[index] + " "
                     line2 = line2[:-1]
-
                 if organizeBy:
                     path = ""
                     missing = False
@@ -160,18 +168,20 @@ class badgeGen:
                         self.setIndivLoc(os.path.join(originalIndivLoc, path))
                 self.addBadge(name, line2, row[codeLoc])
             except:
+                # need to raise exception...
                 print "Bad row: " + str(row) + "\tContinuing..."
 
     def save(self):
-        self._pdfCanvas.save()
+        self._pdf_canvas.save()
 
-    def makeBadge(self,pdf_canvas, name, Line2, code, x, y, badgeType):
+    def makeBadge(self, name, Line2, code, x, y, badge_type):
+        pdf_canvas = self.pdf_canvas
         pdf_canvas.translate(0,0)
-        pdf_canvas.drawImage(_badges[badgeType],
+        pdf_canvas.drawImage(self._badges[badge_type],
                              x*inch,
                              y*inch,
-                             width = _badgeWidth*inch,
-                             height = _badgeHeight*inch)
+                             width = self.__badge_width*inch,
+                             height = self.__badge_height*inch)
         if name:
             fontSize = self.findFont(name)
             if fontSize > 40:
@@ -188,16 +198,20 @@ class badgeGen:
             code = PIRNCode(code)
             renderPDF.draw(code, pdf_canvas, (x + 0.73)*inch, (y + 0.6)*inch)
 
+    # Custom function designed for the clan-mediumsc-webfont. This takes the
+    # text to be output and attempts to scale the font size so that the width
+    # of the string when it appears on the badge will not exceed the sides of
+    # the badge. Weights were calculated with a 12 pt font size.
     def findFont(self,string):
-        baseWidth = re.compile("[abdeghnpstuzCFLPSZ234567890]") # 0.10 inches at 12 pt font
-        thinWidth = re.compile("[Ii.:,;]") # 0.03 inches at 12 pt font
-        bigWidth = re.compile("[wW]") # 0.18 inches at 12 pt font
-        medbigWidth = re.compile("[ABMV]") # 0.14 inches at 12 pt font
-        medWidth = re.compile("[kmoqrvxyDGHKNOQRTUXY]") # 0.12 inches at 12 pt font
-        smallWidth = re.compile("[cfjlEJ1-]") # 0.08 inches at 12 pt font
+        baseWidth = re.compile("[abdeghnpstuzCFLPSZ234567890]") # 0.10 inches
+        thinWidth = re.compile("[Ii.:,;]") # 0.03 inches
+        bigWidth = re.compile("[wW]") # 0.18 inches
+        medbigWidth = re.compile("[ABMV]") # 0.14 inches
+        medWidth = re.compile("[kmoqrvxyDGHKNOQRTUXY]") # 0.12 inches
+        smallWidth = re.compile("[cfjlEJ1-]") # 0.08 inches
 
         width2font = (36-16)/(0.29 - 0.14)
-        goalWidth = _badgeWidth - 0.5
+        goalWidth = self.__badge_width - 0.5 # 0.5 is combined left+right margin
         width = 0
 
         for ch in string:
@@ -215,22 +229,14 @@ class badgeGen:
                 width = width + 0.08
 
         if width > goalWidth:
+            # Need to change this to raise an exception for error handling
             print "Really long string. Bad input."
             exit(1) # That's pretty long...
         if width < goalWidth:
             return (goalWidth/width)*12
 
-deprecated = """    
-def strLen(string):
-    count = 0
-    half = re.compile("[\WIi]")
-    big = re.compile("[WwMm]")
-    for ch in string:
-        if half.match(ch):
-            count = count + 0.8
-        elif big.match(ch):
-            count = count + 1.55
-        else:
-            count = count + 1
-    return int(round(count))
-"""
+    def gen4():
+        chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F',
+                'G','H','J','K','L','M','N','P','Q','R','S','T','U','V','W','X','Y',
+                'Z']
+        return "".join([random.choice(chars) for i in xrange(4)])
