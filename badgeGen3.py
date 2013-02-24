@@ -31,10 +31,6 @@ import random, string
     
 class BadgeGen:
     __version__ = 3
-    #__badge_height = 3.1
-    #__badge_width = 4.1
-    #__init_x_position = 0.15
-    #__init_y_position = 1
     #x = _initXpos
     #y = _initYpos
     #_pdf_canvas = None

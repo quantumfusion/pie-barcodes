@@ -1,4 +1,5 @@
-# A convenience class
+# A convenience class for generating barcodes. Inherits from drawing,
+# so can be drawn directly onto a canvas.
 
 # Report Lab API: http://www.reportlab.com/apis/reportlab/2.4/index.html
 from reportlab.lib.units import inch
