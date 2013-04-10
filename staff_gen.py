@@ -1,12 +1,13 @@
+#! /usr/bin/python2.7
 # generates the staff's badges
 
-from badgeGen3 import badgeGen
+from badgeGen3 import BadgeGen
 
-inputCSV = "Staff.csv"
+inputCSV = "staffRoster.csv"
 
 print "Starting..."
-badges = badgeGen("badgesStaff.pdf","PI")
+badges = BadgeGen("badgesStaff.pdf","PI")
 badges.setIndivLoc("badgesStaff")
-badges.fromCSV(inputCSV,[0,1],[2],6)
+badges.fromCSV(inputCSV,[0,1],[2],15)
 badges.save()
 print "Done."

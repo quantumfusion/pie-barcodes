@@ -1,0 +1,270 @@
+School,Team number,First Name,Last Name,Barcode
+Albany,1,Annie,Chen,ST0000BX
+Albany,1,Will,Colin-Diamond,ST0012MW
+Albany,1,Tina,Chen,ST00219G
+Albany,1,David,Friedman,ST0033CH
+Albany,1,Atharva,Karnik,ST00413C
+Albany,1,Tiffany,Lee,ST00508G
+Albany,1,Vivian,Ting,ST0061W6
+Albany,1,Zak,Pedersen,ST0072WU
+Albany,1,Yang,Ren,ST0083FS
+Albany,1,Saba,Sahebjam-Atabaki,ST009182
+Albany,1,Jeffrey,Shi,ST00A0SI
+Albany,1,Myles,Walden,ST00B2WE
+Albany,1,Jimmy,Yan,ST00C3CC
+Albany,1,Felix,Yoon,ST00D0UL
+Albany,1,Daniel,Zheng,ST00E08I
+Albany,1,Alan,Zhang,ST00F2YU
+Albany,1,Patrick ,Lou,ST00G1M3
+Berkeley,2,Daniela,Koch,ST00H104
+Berkeley,2,Yu-Hsiang,Lo,ST00I29X
+Berkeley,2,Ryan,Dickerhoff,ST00J07J
+Berkeley,2,Jason,O'Neill,ST00K0ZQ
+Berkeley,2,Tyler,Mertens,ST00L284
+Berkeley,2,Philip,Guther,ST00M0IW
+Berkeley,2,Julian ,Morgan,ST00N1YM
+Berkeley,2,Joseph,Glass-Katz,ST00P2XI
+Berkeley,2,Ruby,Spring,ST00Q1BB
+Berkeley,2,Lily,Rockholt,ST00R1B0
+Berkeley,2,Maxwell,Levenson,ST00S1AY
+Berkeley,2,Elsa,de Becker,ST00T36N
+Berkeley,2,Jarett,King,ST00U05Y
+Berkeley,2,Svava,Gleissner,ST00V2VP
+Berkeley,2,Yuri,Stickney,ST00W0VQ
+De Anza,3,Monica,Lira,ST00X1KV
+De Anza,3,Alex,Galvez,ST00Y37M
+De Anza,3,Nahum,Barrios,ST00Z24G
+De Anza,3,Darren,Thoresen,ST0100LI
+De Anza,3,Jonathan,Quintana,ST0112UC
+De Anza,3,Marcus,Jackson,ST01204S
+De Anza,3,George,Mares,ST01305I
+LPS-Richmond,4,Juan,Hernandez,ST0140IS
+LPS-Richmond,4,Carlos,Bonilla,ST01510Y
+LPS-Richmond,4,Michael,Douglas,ST0162NW
+LPS-Richmond,4,Naylea,Hernandez,ST0171D9
+LPS-Richmond,4,Enrique,Labrada,ST0183BP
+LPS-Richmond,4,Christian,Laranaga,ST0191GP
+LPS-Richmond,4,Alejandro,Maciz Macios,ST01A14X
+LPS-Richmond,4,Elias,Ortega,ST01B073
+LPS-Richmond,4,Rodrigo,Perez,ST01C3DC
+LPS-Richmond,4,Aura,Perez,ST01D0HF
+LPS-Richmond,4,Adrian,Ponce,ST01E0ZE
+LPS-Richmond,4,Daniel,Rico,ST01F02N
+LPS-Richmond,4,Jesus,Ruiz,ST01G26A
+LPS-Richmond,4,Pedro T.,Samano,ST01H079
+LPS-Richmond,4,Aaron,Williams,ST01I02G
+Bishop O'Dowd,8,Sarah,Kluger,ST01J197
+Bishop O'Dowd,8,Tyger,Cohen,ST01K2TC
+Bishop O'Dowd,8,Zach,Ehernburg,ST01L1GB
+Bishop O'Dowd,8,Chris,Gardener,ST01M2WW
+Bishop O'Dowd,8,Mylan,Gerbeyus,ST01N2JM
+Bishop O'Dowd,8,Matt,Hallock,ST01P0VP
+Bishop O'Dowd,8,Enzo,Marrama,ST01Q2PH
+Bishop O'Dowd,8,Kevin,Ponce,ST01R3BQ
+Bishop O'Dowd,8,Alvaro,Ramos,ST01S35R
+Bishop O'Dowd,8,Cristina,Riani,ST01T0M9
+Bishop O'Dowd,8,Jacky,Tien,ST01U0AP
+Bishop O'Dowd,8,Austin,Tom,ST01V2YS
+Bishop O'Dowd,8,Zhilong,Zhou,ST01W3DZ
+Skyline,10,Rafael,Amezquita,ST01X05R
+Skyline,10,David,Brown,ST01Y32K
+Skyline,10,Riley,Johnson,ST01Z1SV
+Skyline,10,Alec,Barks,ST0201FQ
+Skyline,10,Tasia,Moore,ST0211ZZ
+Skyline,10,Rebecca,Depadua,ST0221CD
+El Cerrito,12,Roshan,Lynanda,ST0232QX
+El Cerrito,12,Shamal,Diaz,ST0241GW
+El Cerrito,12,William,Luong,ST02512L
+El Cerrito,12,Amit,Shori,ST0263FV
+El Cerrito,12,Qingqing,Zhang,ST0271DS
+El Cerrito,12,Maggie,Li,ST02808H
+El Cerrito,12,Sweta,Yonjan,ST029083
+El Cerrito,12,Amel,Alkaheli,ST02A2XX
+El Cerrito,12,Raymond,Chu,ST02B24U
+El Cerrito,12,Sohaib,Syed,ST02C0K7
+El Cerrito,12,Mujtaba,Jafri,ST02D25F
+El Cerrito,12,Francisco,Rivera,ST02E0I6
+El Cerrito,12,Andre,Monk,ST02F3FN
+El Cerrito,12,Jake,Preston,ST02G1QI
+Head-Royce,13,Aaron ,Goldsmith,ST02H2Z1
+Head-Royce,13,Brian,Burns,ST02I1X4
+Head-Royce,13,Andrew,Dixon,ST02J1WF
+Head-Royce,13,Julian,Early,ST02K2E6
+Head-Royce,13,Giorgi,Ellis,ST02L389
+Head-Royce,13,Chris,Irwin,ST02M0A7
+Head-Royce,13,Robyn,Helms,ST02N33Q
+Head-Royce,13,Noah,Martin-Roben,ST02P0BV
+Head-Royce,13,Mel,Roderick,ST02Q051
+Head-Royce,13,Mitchell,Yearly,ST02R24X
+Oakland Technical,14,Tanner,Swenson,ST02S07H
+Oakland Technical,14,Gabriel,Aaron Meldman-Cotton,ST02T2TS
+Oakland Technical,14,Quang,Bui,ST02U1QB
+Oakland Technical,14,Lucas,Chambliss,ST02V0JV
+Oakland Technical,14,Jasper,Kriguer,ST02W2ES
+Oakland Technical,14,Brandon,Li,ST02X2YH
+Oakland Technical,14,Edward,Nguyen,ST02Y1JT
+Oakland Technical,14,Kyle,Pierce,ST02Z02A
+Oakland Technical,14,Griffin,Pierce,ST0302IB
+Oakland Technical,14,James,Rose,ST0313FA
+Oakland Technical,14,Jessalyn,Siu,ST0320M7
+Oakland Technical,14,Winnie,Yao,ST0330W0
+Pinole Valley,15,Maia,Rivera,ST0340R1
+Pinole Valley,15,Samantha,Sze,ST035359
+Pinole Valley,15,Andrew,Nguyen,ST03628U
+Pinole Valley,15,Nicholas,Young,ST0370XV
+Pinole Valley,15,Emily,Wong,ST03819G
+Pinole Valley,15,Michelle,Phung,ST03906K
+Pinole Valley,15,Xavier,Lugue,ST03A35A
+Pinole Valley,15,Ricardo,Trijulo,ST03B00L
+Pinole Valley,15,Du,Nguyen,ST03C0ZJ
+Pinole Valley,15,Anh,Tran,ST03D0BQ
+Pinole Valley,15,Bryan,Vuong,ST03E02W
+Pinole Valley,15,Yadel,Abraham,ST03F2JA
+Pinole Valley,15,Preston,Chan,ST03G0VM
+Pinole Valley,15,Cody,Li,ST03H27E
+Pinole Valley,15,Joseph,Nguyen,ST03I1YI
+Pinole Valley,15,Tyler,Ho,ST03J1C2
+Pinole Valley,15,Brittany,Tran,ST03K3FD
+Pinole Valley,15,Julia,Chang,ST03L1PM
+Pinole Valley,15,Jose,Castro,ST03M1AZ
+Pinole Valley,15,Leonard,Eisen,ST03N2L1
+Pinole Valley,15,Darren,Cruz,ST03P030
+Pinole Valley,15,Junhui,Zhou,ST03Q20C
+Pinole Valley,15,Xinhao,Fan,ST03R2JF
+Pinole Valley,15,Thomas ,Johnston,ST03S0KP
+Ralph J. Bunche,16,Teela,Brown-Ortiz,ST03T3D3
+Ralph J. Bunche,16,Dwain,Berry,ST03U38P
+Ralph J. Bunche,16,Alberto,Beltran,ST03V1LH
+Ralph J. Bunche,16,Damon,Smith,ST03W3FL
+Ralph J. Bunche,16,Alexis,Lockett,ST03X05Z
+College Prep,18,Bibiana,Cardoso,ST04929I
+College Prep,18,Rehekan,Chavain,ST04A0SS
+College Prep,18,Ketzia,Escudero,ST04B1B9
+College Prep,18,Andy,Espejo,ST04C11T
+College Prep,18,Jennifer,Guevara,ST04D0PF
+College Prep,18,Erueshia,Parker,ST04E1FY
+College Prep,18,Vladimir,Pena,ST04F3B8
+College Prep,18,Ricardo,Perez,ST04G1P6
+College Prep,18,David,Rodriguez,ST04H2W6
+College Prep,18,David,Valdivia,ST04I1YW
+College Prep,18,Christopher,Yi,ST04J15H
+Balboa,19,Aaron,Hoang,ST04K2WR
+Balboa,19,Ying,Cai,ST04L10N
+Balboa,19,Da,Chen,ST04M01Q
+Balboa,19,Jie,Chen,ST04N2EC
+Balboa,19,Logan,Duong,ST04P23F
+Balboa,19,Martin,He,ST04Q0A2
+Balboa,19,Wilson,Leong,ST04R2P7
+Balboa,19,Leslie,Li,ST04S151
+Balboa,19,Ryan,Lin,ST04T0DD
+Balboa,19,Rosalba,Rodriguez,ST04U2D9
+Balboa,19,Dean,Shearer,ST04V2JH
+Balboa,19,Andy,Toy,ST04W2U7
+Balboa,19,Zhen,Xiao,ST04X2VS
+Balboa,19,Kevin,Yu,ST04Y2C7
+Balboa,19,Quentin,Zhong,ST04Z0XU
+Encinal,20,Dat,Hua,ST05033V
+Encinal,20,Victor,Chu,ST0512MQ
+Encinal,20,Jay,Feria,ST0522H1
+Encinal,20,Sione,Ealelei,ST0532SZ
+Encinal,20,Tommy,Le,ST0543GS
+Encinal,20,Khai,Hua,ST0551B1
+Encinal,20,Ashish,Manandhar,ST056356
+Encinal,20,Jason,Tam,ST0572LK
+Encinal,20,Kim,Wong,ST0582V1
+Encinal,20,Brandon,Edquilang,ST0592AX
+Encinal,20,Armando,Negrete,ST05A12T
+Encinal,20,Kobe,Schwinges-Williams,ST05B2FV
+Encinal,20,Mandy,Ma,ST05C1KG
+Encinal,20,Marcello,Predovic,ST05D0M1
+Encinal,20,Angela,Wu,ST05E2TK
+Encinal,20,Ingrid,Rodriguez,ST05F2IR
+Encinal,20,Gabriella,Ramirez,ST05G1VE
+Encinal,20,Stephen,Ouyang,ST05H0SH
+Encinal,20,Paolo,Baquiran,ST05I1ML
+Encinal,20,Joseph,Quach,ST05J0D6
+Encinal,20,Bobby,Ching,ST05K12A
+Impact,22,Omid,Jamdar,ST05L2KT
+Impact,22,Jacob,Angleton,ST05M1M5
+Impact,22,Kyle,Carter,ST05N07Y
+Impact,22,Kelly,Chappelle,ST05P141
+Impact,22,Joseph,Hernandez-Santos,ST05Q36Q
+Impact,22,Omid,Jamdar,ST05R0RQ
+Impact,22,Justin,Lam,ST05S2JU
+Impact,22,Dania,Lara,ST05T1X0
+Impact,22,John,Marcus,ST05U1RY
+Impact,22,Rachel,Rynazewski,ST05V2HI
+Impact,22,Parbir,Singh,ST05W14H
+Impact,22,Yasmin,Villialbos,ST05X3BA
+Lawrence Hall of Science,23,Sam,Lee,ST05Y25H
+Lawrence Hall of Science,23,Max,Lee,ST05Z2MN
+Lawrence Hall of Science,23,Aaron,Lin,ST0600CG
+Lawrence Hall of Science,23,Justin,Jorge,ST0610NN
+Lighthouse,24,Noe,Hernandez,ST0623D1
+Lighthouse,24,Jessie,Vazquez,ST0632M2
+Lighthouse,24,Miguel,Guerrero,ST0642G1
+Lighthouse,24,Karen,Ortega,ST0651IA
+Lighthouse,24,Maldonado,Maldonado,ST0660L2
+Lighthouse,24,April,Jimenez,ST067383
+Lighthouse,24,Laura,Nunez,ST0683CP
+Lighthouse,24,Alix,Plascencia,ST0690NB
+Lighthouse,24,Kevin,Lares,ST06A2F7
+Lighthouse,24,Kevin,Nava,ST06B0JC
+Lighthouse,24,Arthur,Winning,ST06C0V9
+Lighthouse,24,Jose,Amaral,ST06D1JA
+Lighthouse,24,Sandra,Martinez ,ST06E1EZ
+Lighthouse,24,Katia,Castaneda,ST06F2UE
+Lighthouse,24,Jarelly,Martin,ST06G2S3
+Lighthouse,24,Evelyn,Zamora,ST06H1V5
+Lighthouse,24,Vanessa,Zamora,ST06I2GK
+Lighthouse,24,Jazmine,Fernandez,ST06J0KP
+Lighthouse,24,Javier,Padilla,ST06K097
+Lionel Wilson,25,Fernanda,Agilar,ST06L02G
+Lionel Wilson,25,Marcos,Alejandre,ST06M2EP
+Lionel Wilson,25,Eliot,Alvarez,ST06N2Q3
+Lionel Wilson,25,Jorge,Avelar-Lopez,ST06P1HQ
+Lionel Wilson,25,Omar,Diaz,ST06Q1V3
+Lionel Wilson,25,Christian,Galeana,ST06R0SX
+Lionel Wilson,25,Jessica,Garrido,ST06S1H4
+Lionel Wilson,25,Yorbellyt,Guzman,ST06T2SP
+Lionel Wilson,25,Alexis,Maciel,ST06U1WY
+Lionel Wilson,25,Eduarda,Navarro,ST06V09K
+Lionel Wilson,25,Jose,Santacruz,ST06W13Z
+Lionel Wilson,25,Gary,Su,ST06X2E8
+Lionel Wilson,25,Joseline,Padilla,ST06Y1VK
+San Lorenzo,27,Jonathon,Dong,ST06Z0TI
+San Lorenzo,27,Andrea,Hyche ,ST0702ED
+San Lorenzo,27,Connie,Su,ST0712DV
+San Lorenzo,27,Giovanni,Collins,ST0721F2
+San Lorenzo,27,Sammy,Siu,ST0732QK
+San Lorenzo,27,Eduardo,Galvan,ST0741WC
+San Lorenzo,27,Jorge,Galvan,ST075337
+San Lorenzo,27,Jessica,O'Dia,ST0762PD
+NCLC,28,Brian,Elder,ST077295
+NCLC,28,Robert,Tran,ST0782LQ
+NCLC,28,Gordan,Tan,ST0792EV
+NCLC,28,Shanice,Woolridge,ST07A1SB
+NCLC,28,Troy,Marbray,ST07B36T
+NCLC,28,Kai,Schniedergers,ST07C0UB
+NCLC,28,Ian,Linke,ST07D1HI
+NCLC,28,Kaelin,Wilson,ST07E21N
+NCLC,28,Ashley,Sims,ST07F17I
+NCLC,28,Xavier,Sanders,ST07G1UA
+NCLC,28,Dijiha,Pintily,ST07H39X
+Realm,29,Spencer,Cherry,ST07I1HB
+Realm,29,Jordan,Walker,ST07J2FA
+Realm,29,Miguel,Torres,ST07K309
+Realm,29,Corey,Delgadillo,ST07L1AC
+Realm,29,Jackie,Thomas,ST07M362
+Realm,29,Abel,Galm,ST07N03E
+Realm,29,Carlos,Andrado,ST07P1MA
+Realm,29,Billy,Ruby,ST07Q1F2
+Realm,29,Malek,Armstrong,ST07R349
+Realm,29,Brehn,Vance,ST07S2EK
+Saint Mary's,30,Max,Goldstein,ST07T173
+Saint Mary's,30,Connor,Asercion,ST07U3D2
+Saint Mary's,30,Richard,Fong,ST07V314
+Saint Mary's,30,Charilou,Labitan,ST07W2CB
+Saint Mary's,30,Sabine,Mihalovich,ST07X269
+Saint Mary's,30,Joshua,Pena,ST07Y39I
+Saint Mary's,30,Lawrence,Teng,ST07Z2GG

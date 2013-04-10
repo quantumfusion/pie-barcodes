@@ -1,13 +1,13 @@
 #! /usr/bin/python2.7
-# Generates the mentor's badges
+# generates the judge's badges
 
 from badgeGen3 import BadgeGen
 
-inputCSV = "mentors.csv"
+inputCSV = "judges.csv"
 
 print "Starting..."
-badges = BadgeGen("badgesMentors.pdf","MT")
-badges.setIndivLoc("badgesMentors")
+badges = BadgeGen("badgesJudges.pdf", "judge")
+badges.setIndivLoc("badgesJudges")
 badges.fromCSV(inputCSV,[0,1],[2],3)
 badges.save()
 print "Done."

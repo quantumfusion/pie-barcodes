@@ -18,8 +18,8 @@ class PIRNCode(Drawing):
         barcode = createBarcodeDrawing('Code128',
                                         value = code,
                                         humanReadable = True,
-                                        barHeight = 0.2*inch,
-                                        textHeight = 10,
+                                        barHeight = 0.3*inch,
+                                        #textHeight = 10,
                                         width = code_width,
                                         height = code_height)
         Drawing.__init__(self, barcode.width, barcode.height, *args, **kw)

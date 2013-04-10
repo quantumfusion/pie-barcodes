@@ -1,12 +1,13 @@
+#! /usr/bin/python2.7
 # generates the teacher's badges
 
-from badgeGen3 import badgeGen
+from badgeGen3 import BadgeGen
 
-inputCSV = "Teachers.csv"
+inputCSV = "teachers.csv"
 
 print "Starting..."
-badges = badgeGen("badgesTeachers.pdf", "TE")
+badges = BadgeGen("badgesTeachers.pdf", "TE")
 badges.setIndivLoc("badgesTeachers")
-badges.fromCSV(inputCSV,[2,3],[4],6,"Team ", [0])
+badges.fromCSV(inputCSV,[3,4],[1],7,"Team ", [0])
 badges.save()
 print "Done."

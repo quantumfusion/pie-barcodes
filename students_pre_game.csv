@@ -1,0 +1,301 @@
+School,Team number,First Name,Last Name,Liability,Emergency Contact,Student Survey,DR Sign Up,Team Info Sheet,Team Questionnaire,Teacher Survey,Check?,Gender,T-shirt size,E-mail addresses,Barcode
+Albany,1,Annie,Chen,y,y,y,y,y,y,y,,,,,ST0000BX
+Albany,1,Will,Colin-Diamond,y,y,y,y,y,y,y,,,,,ST0012MW
+Albany,1,Tina,Chen,y,y,y,y,y,y,y,,,,,ST00219G
+Albany,1,David,Friedman,y,y,y,y,y,y,y,,,,,ST0033CH
+Albany,1,Atharva,Karnik,y,y,y,y,y,y,y,,,,,ST00413C
+Albany,1,Tiffany,Lee,y,y,y,y,y,y,y,,,,,ST00508G
+Albany,1,Vivian,Ting,y,y,y,y,y,y,y,,,,,ST0061W6
+Albany,1,Zak,Pedersen,y,y,y,y,y,y,y,,,,,ST0072WU
+Albany,1,Yang,Ren,y,y,y,y,y,y,y,,,,,ST0083FS
+Albany,1,Saba,Sahebjam-Atabaki,y,y,y,y,y,y,y,,,,,ST009182
+Albany,1,Jeffrey,Shi,y,y,y,y,y,y,y,,,,,ST00A0SI
+Albany,1,Myles,Walden,y,y,y,y,y,y,y,,,,,ST00B2WE
+Albany,1,Jimmy,Yan,y,y,y,y,y,y,y,,,,,ST00C3CC
+Albany,1,Felix,Yoon,y,y,y,y,y,y,y,,,,,ST00D0UL
+Albany,1,Daniel,Zheng,y,y,y,y,y,y,y,,,,,ST00E08I
+Albany,1,Alan,Zhang,y,y,y,y,y,y,y,,,,,ST00F2YU
+Albany,1,Patrick ,Lou,y,y,y,y,y,y,y,,,,,ST00G1M3
+Berkeley,2,Daniela,Koch,y,y ,y,y,y,y,y,y,,,,ST00H104
+Berkeley,2,Yu-Hsiang,Lo,,,,,,,,,,,,ST00I29X
+Berkeley,2,Ryan,Dickerhoff,y,y,y,,,,,,,,,ST00J07J
+Berkeley,2,Jason,O'Neill,y,y,y,,,,,,,,,ST00K0ZQ
+Berkeley,2,Tyler,Mertens,y,y,y,,,,,,,,,ST00L284
+Berkeley,2,Philip,Guther,y,y,y,,,,,,,,,ST00M0IW
+Berkeley,2,Julian ,Morgan,,,,,,,,,,,,ST00N1YM
+Berkeley,2,Joseph,Glass-Katz,y,y,y,,,,,,,,,ST00P2XI
+Berkeley,2,Ruby,Spring,,,,,,,,,,,,ST00Q1BB
+Berkeley,2,Lily,Rockholt,,,,,,,,,,,,ST00R1B0
+Berkeley,2,Maxwell,Levenson,y,y,y,,,,,,,,,ST00S1AY
+Berkeley,2,Elsa,de Becker,y,y,y,,,,,,,,,ST00T36N
+Berkeley,2,Jarett,King,,,,,,,,,,,,ST00U05Y
+Berkeley,2,Svava,Gleissner,,,,,,,,,,,,ST00V2VP
+Berkeley,2,Yuri,Stickney,,,,,,,,,,,,ST00W0VQ
+De Anza,3,Monica,Lira,y,y,y,y,y,y,,,,,,ST00X1KV
+De Anza,3,Alex,Galvez,y,y,y,,,,,,,,,ST00Y37M
+De Anza,3,Nahum,Barrios,y,y,y,,,,,,,,,ST00Z24G
+De Anza,3,Darren,Thoresen,,,,,,,,,,,,ST0100LI
+De Anza,3,Jonathan,Quintana,,,,,,,,,,,,ST0112UC
+De Anza,3,Marcus,Jackson,y,y,y,,,,,,,,,ST01204S
+De Anza,3,George,Mares,,,,,,,,,,,,ST01305I
+LPS-Richmond,4,Juan,Hernandez,,,,,,,,,,,,ST0140IS
+LPS-Richmond,4,Carlos,Bonilla,,,,,,,,,,,,ST01510Y
+LPS-Richmond,4,Michael,Douglas,y,y,y,,,,,,,,,ST0162NW
+LPS-Richmond,4,Naylea,Hernandez,,,,,,,,,,,,ST0171D9
+LPS-Richmond,4,Enrique,Labrada,,,,,,,,,,,,ST0183BP
+LPS-Richmond,4,Christian,Laranaga,,,,,,,,,,,,ST0191GP
+LPS-Richmond,4,Alejandro,Maciz Macios,,,,,,,,,,,,ST01A14X
+LPS-Richmond,4,Elias,Ortega,y,y,y,,,,,,,,,ST01B073
+LPS-Richmond,4,Rodrigo,Perez,y,y,y,,,,,,,,,ST01C3DC
+LPS-Richmond,4,Aura,Perez,y,y,y,,,,,,,,,ST01D0HF
+LPS-Richmond,4,Adrian,Ponce,y,y,y,,,,,,,,,ST01E0ZE
+LPS-Richmond,4,Daniel,Rico,y,y,y,,,,,,,,,ST01F02N
+LPS-Richmond,4,Jesus,Ruiz,y,y,y,,,,,,,,,ST01G26A
+LPS-Richmond,4,Pedro T.,Samano,y,y,y,,,,,,,,,ST01H079
+LPS-Richmond,4,Aaron,Williams,y,y,y,,,,,,,,,ST01I02G
+Bishop O'Dowd,8,Sarah,Kluger,Y,y,y,y,y,,,,,,,ST01J197
+Bishop O'Dowd,8,Tyger,Cohen,y,y,,,,,,,,,,ST01K2TC
+Bishop O'Dowd,8,Zach,Ehernburg,Y,y,,,,,,,,,,ST01L1GB
+Bishop O'Dowd,8,Chris,Gardener,n,n,y,y,y,,,,,,,ST01M2WW
+Bishop O'Dowd,8,Mylan,Gerbeyus,n,n,,,,,,,,,,ST01N2JM
+Bishop O'Dowd,8,Matt,Hallock,y,y,,,,,,,,,,ST01P0VP
+Bishop O'Dowd,8,Enzo,Marrama,y,y,y,y,y,,,,,,,ST01Q2PH
+Bishop O'Dowd,8,Kevin,Ponce,y,y,,,,,,,,,,ST01R3BQ
+Bishop O'Dowd,8,Alvaro,Ramos,y,y,y,y,y,,,,,,,ST01S35R
+Bishop O'Dowd,8,Cristina,Riani,n,n,,,,,,,,,,ST01T0M9
+Bishop O'Dowd,8,Jacky,Tien,n,n,y,y,y,,,,,,,ST01U0AP
+Bishop O'Dowd,8,Austin,Tom,,,y,y,y,,,,,,,ST01V2YS
+Bishop O'Dowd,8,Zhilong,Zhou,,,y,y,y,,,,,,,ST01W3DZ
+Skyline,10,Rafael,Amezquita,,,,,,,,,,,,ST01X05R
+Skyline,10,David,Brown,,,,,,,,,,,,ST01Y32K
+Skyline,10,Riley,Johnson,y,y,y,,,,,,,,,ST01Z1SV
+Skyline,10,Alec,Barks,,,,,,,,,,,,ST0201FQ
+Skyline,10,Tasia,Moore,,,,,,,,,,,,ST0211ZZ
+Skyline,10,Rebecca,Depadua,,,,,,,,,,,,ST0221CD
+El Cerrito,12,Roshan,Lynanda,y,y,y,y,y,y,y,y,M,L,,ST0232QX
+El Cerrito,12,Shamal,Diaz,y,y,y,,,,,,M,M,,ST0241GW
+El Cerrito,12,William,Luong,y,y,y,,,,,,M,M,,ST02512L
+El Cerrito,12,Amit,Shori,y,y,y,,,,,,M,2X,,ST0263FV
+El Cerrito,12,Qingqing,Zhang,y,y,y,,,,,,F,L,,ST0271DS
+El Cerrito,12,Maggie,Li,y,y,y,,,,,,F,M,,ST02808H
+El Cerrito,12,Sweta,Yonjan,y,y,y,,,,,,F,M,,ST029083
+El Cerrito,12,Amel,Alkaheli,y,y,y,,,,,,F,M,,ST02A2XX
+El Cerrito,12,Raymond,Chu,y,y,y,,,,,,M,M,,ST02B24U
+El Cerrito,12,Sohaib,Syed,y,y,y,,,,,,M,XL,,ST02C0K7
+El Cerrito,12,Mujtaba,Jafri,y,y,y,,,,,,M,L,,ST02D25F
+El Cerrito,12,Francisco,Rivera,y,y,y,,,,,,M,XL,,ST02E0I6
+El Cerrito,12,Andre,Monk,y,y,y,,,,,,M,2X,,ST02F3FN
+El Cerrito,12,Jake,Preston,y,y,y,,,,,,M,XL,,ST02G1QI
+Head-Royce,13,Aaron ,Goldsmith,y,,,y,y,y,y,,,,,ST02H2Z1
+Head-Royce,13,Brian,Burns,y,,,y,y,y,y,,,,,ST02I1X4
+Head-Royce,13,Andrew,Dixon,,,,y,y,y,y,,,,,ST02J1WF
+Head-Royce,13,Julian,Early,y,y,,y,y,y,y,,,,,ST02K2E6
+Head-Royce,13,Giorgi,Ellis,,,,y,y,y,y,,,,,ST02L389
+Head-Royce,13,Chris,Irwin,,,,y,y,y,y,,,,,ST02M0A7
+Head-Royce,13,Robyn,Helms,y,,,y,y,y,y,,,,,ST02N33Q
+Head-Royce,13,Noah,Martin-Roben,,,,y,y,y,y,,,,,ST02P0BV
+Head-Royce,13,Mel,Roderick,y,,,y,y,y,y,,,,,ST02Q051
+Head-Royce,13,Mitchell,Yearly,,,,y,y,y,y,,,,,ST02R24X
+Oakland Technical,14,Tanner,Swenson,Y,y,y,Y,Y,Y,Y,Y,M,L,,ST02S07H
+Oakland Technical,14,Gabriel,Aaron Meldman-Cotton,y,y,y,,,,,,M,M,,ST02T2TS
+Oakland Technical,14,Quang,Bui,y,y,y,,,,,,M,S,,ST02U1QB
+Oakland Technical,14,Lucas,Chambliss,n,n,n,,,,,,M,L,,ST02V0JV
+Oakland Technical,14,Jasper,Kriguer,n,n,n,,,,,,M,M,,ST02W2ES
+Oakland Technical,14,Brandon,Li,y,y,y,,,,,,M,L,,ST02X2YH
+Oakland Technical,14,Edward,Nguyen,n,n,n,,,,,,F,M,,ST02Y1JT
+Oakland Technical,14,Kyle,Pierce,n,n,n,,,,,,,,,ST02Z02A
+Oakland Technical,14,Griffin,Pierce,y,y,y,,,,,,M,L,,ST0302IB
+Oakland Technical,14,James,Rose,n,n,n,,,,,,M,XL,,ST0313FA
+Oakland Technical,14,Jessalyn,Siu,n,n,n,,,,,,F,L,,ST0320M7
+Oakland Technical,14,Winnie,Yao,y,y,y,,,,,,M,S,,ST0330W0
+Pinole Valley,15,Maia,Rivera,y,y,y,,y,y,y,y,,,,ST0340R1
+Pinole Valley,15,Samantha,Sze,y,y,y,,,,,,,,,ST035359
+Pinole Valley,15,Andrew,Nguyen,y,y,y,,,,,,,,,ST03628U
+Pinole Valley,15,Nicholas,Young,y,y,y,,,,,,,,,ST0370XV
+Pinole Valley,15,Emily,Wong,,,,,,,,,,,,ST03819G
+Pinole Valley,15,Michelle,Phung,y,y,y,,,,,,,,,ST03906K
+Pinole Valley,15,Xavier,Lugue,,,,,,,,,,,,ST03A35A
+Pinole Valley,15,Ricardo,Trijulo,y,y,y,,,,,,,,,ST03B00L
+Pinole Valley,15,Du,Nguyen,y,y,y,,,,,,,,,ST03C0ZJ
+Pinole Valley,15,Anh,Tran,y,y,y,,,,,,,,,ST03D0BQ
+Pinole Valley,15,Bryan,Vuong,y,y,y,,,,,,,,,ST03E02W
+Pinole Valley,15,Yadel,Abraham,y,y,y,,,,,,,,,ST03F2JA
+Pinole Valley,15,Preston,Chan,y,y,y,,,,,,,,,ST03G0VM
+Pinole Valley,15,Cody,Li,y,y,y,,,,,,,,,ST03H27E
+Pinole Valley,15,Joseph,Nguyen,y,y,y,,,,,,,,,ST03I1YI
+Pinole Valley,15,Tyler,Ho,y,y,y,,,,,,,,,ST03J1C2
+Pinole Valley,15,Brittany,Tran,,,,,,,,,,,,ST03K3FD
+Pinole Valley,15,Julia,Chang,,,,,,,,,,,,ST03L1PM
+Pinole Valley,15,Jose,Castro,y,y,y,,,,,,,,,ST03M1AZ
+Pinole Valley,15,Leonard,Eisen,,,,,,,,,,,,ST03N2L1
+Pinole Valley,15,Darren,Cruz,y,y,y,,,,,,,,,ST03P030
+Pinole Valley,15,Junhui,Zhou,y,y,y,,,,,,,,,ST03Q20C
+Pinole Valley,15,Xinhao,Fan,y,y,y,,,,,,,,,ST03R2JF
+Pinole Valley,15,Thomas ,Johnston,y,y,y,,,,,,,,,ST03S0KP
+Ralph J. Bunche,16,Teela,Brown-Ortiz,,,,y,y,y,y,done,,,,ST03T3D3
+Ralph J. Bunche,16,Dwain,Berry,,,,,,,,,,,,ST03U38P
+Ralph J. Bunche,16,Alberto,Beltran,,,,,,,,,,,,ST03V1LH
+Ralph J. Bunche,16,Damon,Smith,,,,,,,,,,,,ST03W3FL
+Ralph J. Bunche,16,Alexis,Lockett,,,,,,,,,,,,ST03X05Z
+Alameda,17,Fiona,Blackburn,y,y,y,y,y,,y,,,,,ST03Y2CS
+Alameda,17,Joshua,Dickey,y,y,y,y,y,,y,,,,,ST03Z32H
+Alameda,17,Chloe,Feng,y,y,y,y,y,,y,,,,,ST0400AS
+Alameda,17,Joy,Kang,y,y,y,y,y,,y,,,,,ST0411QB
+Alameda,17,Michelle,Luo,y,y,y,y,y,,y,,,,,ST04230A
+Alameda,17,Joshua,Mandanas,y,y,y,y,y,,y,,,,,ST0431I0
+Alameda,17,Maria,Mandanas,y,y,y,y,y,,y,,,,,ST04437S
+Alameda,17,Winnie,Zhou,y,y,y,y,y,,y,,,,,ST0453FP
+Alameda,17,Henry,Zhou,y,y,y,y,y,,y,,,,,ST0462ZZ
+Alameda,17,Jessica,Wu,y,y,y,y,y,,y,,,,,ST0471ST
+Alameda,17,Kevin,Amarbayar,y,y,y,y,y,,y,,,,,ST0481I8
+College Prep,18,Bibiana,Cardoso,y,y,y,y,y,y,y,,,,,ST04929I
+College Prep,18,Rehekan,Chavain,y,y,y,,,,,,,,,ST04A0SS
+College Prep,18,Ketzia,Escudero,y,y,y,,,,,,,,,ST04B1B9
+College Prep,18,Andy,Espejo,y,y,y,,,,,,,,,ST04C11T
+College Prep,18,Jennifer,Guevara,y,y,y,,,,,,,,,ST04D0PF
+College Prep,18,Erueshia,Parker,y,y,y,,,,,,,,,ST04E1FY
+College Prep,18,Vladimir,Pena,n,n,n,,,,,,,,,ST04F3B8
+College Prep,18,Ricardo,Perez,n,n,n,,,,,,,,,ST04G1P6
+College Prep,18,David,Rodriguez,y,y,y,,,,,,,,,ST04H2W6
+College Prep,18,David,Valdivia,y,y,y,,,,,,,,,ST04I1YW
+College Prep,18,Christopher,Yi,y,y,y,,,,,,,,,ST04J15H
+Balboa,19,Aaron,Hoang,y,y,y,y,y,y,y,,,,,ST04K2WR
+Balboa,19,Ying,Cai,y,y,y,y,y,y,y,,,,,ST04L10N
+Balboa,19,Da,Chen,y,y,y,y,y,y,y,,,,,ST04M01Q
+Balboa,19,Jie,Chen,y,y,y,y,y,y,y,,,,,ST04N2EC
+Balboa,19,Logan,Duong,y,y,y,y,y,y,y,,,,,ST04P23F
+Balboa,19,Martin,He,y,y,y,y,y,y,y,,,,,ST04Q0A2
+Balboa,19,Wilson,Leong,y,y,y,y,y,y,y,,,,,ST04R2P7
+Balboa,19,Leslie,Li,y,y,y,y,y,y,y,,,,,ST04S151
+Balboa,19,Ryan,Lin,y,y,y,y,y,y,y,,,,,ST04T0DD
+Balboa,19,Rosalba,Rodriguez,y,y,y,y,y,y,y,,,,,ST04U2D9
+Balboa,19,Dean,Shearer,y,y,y,y,y,y,y,,,,,ST04V2JH
+Balboa,19,Andy,Toy,y,y,y,y,y,y,y,,,,,ST04W2U7
+Balboa,19,Zhen,Xiao,y,y,y,y,y,y,y,,,,,ST04X2VS
+Balboa,19,Kevin,Yu,y,y,y,y,y,y,y,,,,,ST04Y2C7
+Balboa,19,Quentin,Zhong,y,y,y,y,y,y,y,,,,,ST04Z0XU
+Encinal,20,Dat,Hua,y,y,y,y,y,y,y,y,,,,ST05033V
+Encinal,20,Victor,Chu,y,y,y,y,y,y,y,,,,,ST0512MQ
+Encinal,20,Jay,Feria,y,y,y,y,y,y,y,,,,,ST0522H1
+Encinal,20,Sione,Ealelei,y,y,y,y,y,y,y,,,,,ST0532SZ
+Encinal,20,Tommy,Le,y,y,y,y,y,y,y,,,,,ST0543GS
+Encinal,20,Khai,Hua,y,y,y,y,y,y,y,,,,,ST0551B1
+Encinal,20,Ashish,Manandhar,y,y,y,y,y,y,y,,,,,ST056356
+Encinal,20,Jason,Tam,,,,y,y,y,y,,,,,ST0572LK
+Encinal,20,Kim,Wong,y,y,y,y,y,y,y,,,,,ST0582V1
+Encinal,20,Brandon,Edquilang,y,y,y,y,y,y,y,,,,,ST0592AX
+Encinal,20,Armando,Negrete,y,y,y,y,y,y,y,,,,,ST05A12T
+Encinal,20,Kobe,Schwinges-Williams,y,y,y,y,y,y,y,,,,,ST05B2FV
+Encinal,20,Mandy,Ma,y,y,y,y,y,y,y,,,,,ST05C1KG
+Encinal,20,Marcello,Predovic,y,y,y,y,y,y,y,,,,,ST05D0M1
+Encinal,20,Angela,Wu,y,y,y,y,y,y,y,,,,,ST05E2TK
+Encinal,20,Ingrid,Rodriguez,y,y,y,y,y,y,y,,,,,ST05F2IR
+Encinal,20,Gabriella,Ramirez,y,y,y,y,y,y,y,,,,,ST05G1VE
+Encinal,20,Stephen,Ouyang,y,y,y,y,y,y,y,,,,,ST05H0SH
+Encinal,20,Paolo,Baquiran,y,y,y,y,y,y,y,,,,,ST05I1ML
+Encinal,20,Joseph,Quach,y,y,y,y,y,y,y,,,,,ST05J0D6
+Encinal,20,Bobby,Ching,y,y,y,y,y,y,y,,,,,ST05K12A
+Impact,22,Omid,Jamdar,,y,,y,y,y,y,Y,M,L,,ST05L2KT
+Impact,22,Jacob,Angleton,,Y,,,,,,,,,,ST05M1M5
+Impact,22,Kyle,Carter,,Y,,,,,,,M,M,,ST05N07Y
+Impact,22,Kelly,Chappelle,,,,,,,,,,,,ST05P141
+Impact,22,Joseph,Hernandez-Santos,,,,,,,,,,,,ST05Q36Q
+Impact,22,Omid,Jamdar,,y,,,,,,,M,L,,ST05R0RQ
+Impact,22,Justin,Lam,y,y,,,,,,,M,L,,ST05S2JU
+Impact,22,Dania,Lara,,y,,,,,,,M,L,,ST05T1X0
+Impact,22,John,Marcus,,y,,,,,,,F,M,,ST05U1RY
+Impact,22,Rachel,Rynazewski,,y,,,,,,,M,M,,ST05V2HI
+Impact,22,Parbir,Singh,,y,,,,,,,F,S,,ST05W14H
+Impact,22,Yasmin,Villialbos,Y,y,,,,,,,F,L,,ST05X3BA
+Lawrence Hall of Science,23,Sam,Lee,,,,,,,,,,,,ST05Y25H
+Lawrence Hall of Science,23,Max,Lee,,,,,,,,,,,,ST05Z2MN
+Lawrence Hall of Science,23,Aaron,Lin,,,,,,,,,,,,ST0600CG
+Lawrence Hall of Science,23,Justin,Jorge,,,,,,,,,,,,ST0610NN
+Lighthouse,24,Noe,Hernandez,,,,,,,,,,,,ST0623D1
+Lighthouse,24,Jessie,Vazquez,,,,,,,,,,,,ST0632M2
+Lighthouse,24,Miguel,Guerrero,,,,,,,,,,,,ST0642G1
+Lighthouse,24,Karen,Ortega,,,,,,,,,,,,ST0651IA
+Lighthouse,24,Maldonado,Maldonado,,,,,,,,,,,,ST0660L2
+Lighthouse,24,April,Jimenez,,,,,,,,,,,,ST067383
+Lighthouse,24,Laura,Nunez,,,,,,,,,,,,ST0683CP
+Lighthouse,24,Alix,Plascencia,,,,,,,,,,,,ST0690NB
+Lighthouse,24,Kevin,Lares,,,,,,,,,,,,ST06A2F7
+Lighthouse,24,Kevin,Nava,,,,,,,,,,,,ST06B0JC
+Lighthouse,24,Arthur,Winning,,,,,,,,,,,,ST06C0V9
+Lighthouse,24,Jose,Amaral,,,,,,,,,,,,ST06D1JA
+Lighthouse,24,Sandra,Martinez ,,,,,,,,,,,,ST06E1EZ
+Lighthouse,24,Katia,Castaneda,,,,,,,,,,,,ST06F2UE
+Lighthouse,24,Jarelly,Martin,,,,,,,,,,,,ST06G2S3
+Lighthouse,24,Evelyn,Zamora,,,,,,,,,,,,ST06H1V5
+Lighthouse,24,Vanessa,Zamora,,,,,,,,,,,,ST06I2GK
+Lighthouse,24,Jazmine,Fernandez,,,,,,,,,,,,ST06J0KP
+Lighthouse,24,Javier,Padilla,,,,,,,,,,,,ST06K097
+Lionel Wilson,25,Fernanda,Agilar,,,,,,,,,,,,ST06L02G
+Lionel Wilson,25,Marcos,Alejandre,,,,,,,,,,,,ST06M2EP
+Lionel Wilson,25,Eliot,Alvarez,,,,,,,,,,,,ST06N2Q3
+Lionel Wilson,25,Jorge,Avelar-Lopez,,,,,,,,,,,,ST06P1HQ
+Lionel Wilson,25,Omar,Diaz,,,,,,,,,,,,ST06Q1V3
+Lionel Wilson,25,Christian,Galeana,,,,,,,,,,,,ST06R0SX
+Lionel Wilson,25,Jessica,Garrido,,,,,,,,,,,,ST06S1H4
+Lionel Wilson,25,Yorbellyt,Guzman,,,,,,,,,,,,ST06T2SP
+Lionel Wilson,25,Alexis,Maciel,,,,,,,,,,,,ST06U1WY
+Lionel Wilson,25,Eduarda,Navarro,,,,,,,,,,,,ST06V09K
+Lionel Wilson,25,Jose,Santacruz,,,,,,,,,,,,ST06W13Z
+Lionel Wilson,25,Gary,Su,,,,,,,,,,,,ST06X2E8
+Lionel Wilson,25,Joseline,Padilla,,,,,,,,,,,,ST06Y1VK
+San Lorenzo,27,Jonathon,Dong,y,y,y,y,y,y,y,y,,,,ST06Z0TI
+San Lorenzo,27,Andrea,Hyche ,y,y,y,,,,,,,,,ST0702ED
+San Lorenzo,27,Connie,Su,y,y,y,,,,,,,,,ST0712DV
+San Lorenzo,27,Giovanni,Collins,y,y,y,,,,,,,,,ST0721F2
+San Lorenzo,27,Sammy,Siu,,,,,,,,,,,,ST0732QK
+San Lorenzo,27,Eduardo,Galvan,y,y,y,,,,,,,,,ST0741WC
+San Lorenzo,27,Jorge,Galvan,y,y,y,,,,,,,,,ST075337
+San Lorenzo,27,Jessica,O'Dia,y,y,y,,,,,,,,,ST0762PD
+NCLC,28,Brian,Elder,Y,Y,Y,Y,Y,Y,Y,Y,M,L,,ST077295
+NCLC,28,Robert,Tran,Y,Y,Y,Y,,,,,M,L,,ST0782LQ
+NCLC,28,Gordan,Tan,,,,,,,,,,,,ST0792EV
+NCLC,28,Shanice,Woolridge,,,,,,,,,,,,ST07A1SB
+NCLC,28,Troy,Marbray,,,,,,,,,,,,ST07B36T
+NCLC,28,Kai,Schniedergers,,,,,,,,,,,,ST07C0UB
+NCLC,28,Ian,Linke,Y,Y,Y,Y,,,,,,,,ST07D1HI
+NCLC,28,Kaelin,Wilson,,,,,,,,,,,,ST07E21N
+NCLC,28,Ashley,Sims,,,,,,,,,,,,ST07F17I
+NCLC,28,Xavier,Sanders,,,,,,,,,,,,ST07G1UA
+NCLC,28,Dijiha,Pintily,,,,,,,,,,,,ST07H39X
+Realm,29,Spencer,Cherry,,,,,,,,,,,,ST07I1HB
+Realm,29,Jordan,Walker,,,,,,,,,,,,ST07J2FA
+Realm,29,Miguel,Torres,,,,,,,,,,,,ST07K309
+Realm,29,Corey,Delgadillo,,,,,,,,,,,,ST07L1AC
+Realm,29,Jackie,Thomas,,,,,,,,,,,,ST07M362
+Realm,29,Abel,Galm,,,,,,,,,,,,ST07N03E
+Realm,29,Carlos,Andrado,,,,,,,,,,,,ST07P1MA
+Realm,29,Billy,Ruby,,,,,,,,,,,,ST07Q1F2
+Realm,29,Malek,Armstrong,,,,,,,,,,,,ST07R349
+Realm,29,Brehn,Vance,,,,,,,,,,,,ST07S2EK
+Saint Mary's,30,Max,Goldstein,y,y,y,y,y,y,y,y,,,,ST07T173
+Saint Mary's,30,Connor,Asercion,y,y,y,,,,,,,,,ST07U3D2
+Saint Mary's,30,Richard,Fong,y,y,y,,,,,,,,,ST07V314
+Saint Mary's,30,Charilou,Labitan,y,y,y,,,,,,,,,ST07W2CB
+Saint Mary's,30,Sabine,Mihalovich,,,,,,,,,,,,ST07X269
+Saint Mary's,30,Joshua,Pena,,,,,,,,,,,,ST07Y39I
+Saint Mary's,30,Lawrence,Teng,y,y,y,,,,,,,,,ST07Z2GG
+,,,,,,,,,,,,,,,ST0800HK
+,,,,,,,,,,,,,,,ST0811XN
+,,,,,,,,,,,,,,,ST0821HK
+,,,,,,,,,,,,,,,ST0830JT
+,,,,,,,,,,,,,,,ST0841A2
+,,,,,,,,,,,,,,,ST08520E
+,,,,,,,,,,,,,,,ST0862RS
+,,,,,,,,,,,,,,,ST0870NR
+,,,,,,,,,,,,,,,ST0880AY
+,,,,,,,,,,,,,,,ST0891PK
+,,,,,,,,,,,,,,,ST08A0PQ
+,,,,,,,,,,,,,,,ST08B1NZ
+,,,,,,,,,,,,,,,ST08C05G
+,,,,,,,,,,,,,,,ST08D23Z
+,,,,,,,,,,,,,,,ST08E2QJ
+,,,,,,,,,,,,,,,ST08F1EN
+,,,,,,,,,,,,,,,ST08G0JY
+,,,,,,,,,,,,,,,ST08H10M
+,,,,,,,,,,,,,,,ST08I0AQ
+,,,,,,,,,,,,,,,ST08J15U
